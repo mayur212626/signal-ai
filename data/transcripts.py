@@ -35,3 +35,5 @@ Dana: Exactly. And our cameras â€” we have 200+ cameras across those two sites â
 # TODO: add demo, negotiation, closing, competitive, multi-stakeholder calls
 
 # Refined discovery call with richer objection handling
+
+# Added: demo call, stalled deal, closed won
