@@ -32,3 +32,14 @@ def agent_ingestion(transcript):
 def agent_ingestion_v2(transcript):
     """Improved ingestion with richer schema."""
     pass  # will replace agent_ingestion
+
+
+def agent_theme_extractor(transcript):
+    """Agent 2: Thematic analysis — pain points."""
+    system = "You are a qualitative research analyst. Perform thematic analysis. Return ONLY valid JSON."
+    user = f"Extract pain points from this transcript. Return JSON with primary_pain_points, objections.\n\n{transcript['transcript']}"
+    raw = _call(system, user, 2000)
+    try:
+        return json.loads(raw)
+    except:
+        return {"primary_pain_points": [], "objections": []}
