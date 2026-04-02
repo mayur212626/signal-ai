@@ -26,3 +26,9 @@ def agent_ingestion(transcript):
         return json.loads(raw)
     except:
         return {"key_topics": [], "deal_context": raw[:200], "critical_moments": []}
+
+
+# Agent 1 v2 — improved JSON schema with buyer_role_insights
+def agent_ingestion_v2(transcript):
+    """Improved ingestion with richer schema."""
+    pass  # will replace agent_ingestion
