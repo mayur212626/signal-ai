@@ -43,3 +43,5 @@ def agent_theme_extractor(transcript):
         return json.loads(raw)
     except:
         return {"primary_pain_points": [], "objections": []}
+
+# agent 2 extended: unspoken_fears, buying_triggers added to schema
