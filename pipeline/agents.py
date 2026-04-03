@@ -45,3 +45,14 @@ def agent_theme_extractor(transcript):
         return {"primary_pain_points": [], "objections": []}
 
 # agent 2 extended: unspoken_fears, buying_triggers added to schema
+
+
+def agent_sentiment(transcript):
+    """Agent 3: Sentiment and deal momentum tracking."""
+    system = "You are a conversation dynamics analyst. Return ONLY valid JSON."
+    user = f"Analyze sentiment and momentum.\n\nOutcome: {transcript['outcome']}\n{transcript['transcript']}"
+    raw = _call(system, user, 1800)
+    try:
+        return json.loads(raw)
+    except:
+        return {"overall_sentiment": "Unknown", "buyer_engagement_score": 5}
