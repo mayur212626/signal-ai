@@ -58,3 +58,5 @@ def agent_sentiment(transcript):
         return {"overall_sentiment": "Unknown", "buyer_engagement_score": 5}
 
 # agent 3: added trust_signals, risk_signals, seller_effectiveness to output
+
+# fix: wrap all json.loads in try/except with structured fallbacks
