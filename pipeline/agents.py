@@ -72,3 +72,5 @@ def agent_pattern_synthesizer(all_analyses):
         return json.loads(raw)
     except:
         return {}
+
+# agent 4: added ideal_customer_profile, competitive_intelligence, recommended_talk_tracks
