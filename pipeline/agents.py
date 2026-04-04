@@ -85,3 +85,5 @@ def agent_strategic_advisor(patterns, all_analyses):
         return json.loads(raw)
     except:
         return {}
+
+# agent 5: added pipeline_health, product_gaps, messaging_opportunities, key_metric_to_watch
