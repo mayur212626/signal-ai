@@ -60,3 +60,15 @@ def agent_sentiment(transcript):
 # agent 3: added trust_signals, risk_signals, seller_effectiveness to output
 
 # fix: wrap all json.loads in try/except with structured fallbacks
+
+
+def agent_pattern_synthesizer(all_analyses):
+    """Agent 4: Cross-call pattern detection."""
+    system = "You are a market intelligence analyst. Find patterns across multiple calls. Return ONLY valid JSON."
+    summary = [{"call": a["meta"]["title"], "pain_points": [p["theme"] for p in a["themes"].get("primary_pain_points", [])]} for a in all_analyses]
+    user = f"Analyze {len(summary)} calls. Return JSON with top_universal_pain_points, objection_patterns, market_signals, win_loss_patterns.\n\n{json.dumps(summary)}"
+    raw = _call(system, user, 2500)
+    try:
+        return json.loads(raw)
+    except:
+        return {}
