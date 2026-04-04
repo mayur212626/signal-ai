@@ -74,3 +74,14 @@ def agent_pattern_synthesizer(all_analyses):
         return {}
 
 # agent 4: added ideal_customer_profile, competitive_intelligence, recommended_talk_tracks
+
+
+def agent_strategic_advisor(patterns, all_analyses):
+    """Agent 5: Strategic recommendations."""
+    system = "You are a CRO and strategic advisor. Generate specific, evidence-backed recommendations. Return ONLY valid JSON."
+    user = f"Generate strategic recommendations from these patterns.\n\n{json.dumps(patterns)}"
+    raw = _call(system, user, 2000)
+    try:
+        return json.loads(raw)
+    except:
+        return {}
