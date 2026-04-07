@@ -87,3 +87,16 @@ def agent_strategic_advisor(patterns, all_analyses):
         return {}
 
 # agent 5: added pipeline_health, product_gaps, messaging_opportunities, key_metric_to_watch
+
+
+def run_pipeline(transcripts, progress_callback=None):
+    """Orchestrate all 5 agents."""
+    all_analyses = []
+    for t in transcripts:
+        ingestion = agent_ingestion(t)
+        themes = agent_theme_extractor(t)
+        sentiment = agent_sentiment(t)
+        all_analyses.append({"meta": {k:v for k,v in t.items() if k != "transcript"}, "ingestion": ingestion, "themes": themes, "sentiment": sentiment})
+    patterns = agent_pattern_synthesizer(all_analyses)
+    strategy = agent_strategic_advisor(patterns, all_analyses)
+    return {"calls": all_analyses, "patterns": patterns, "strategy": strategy, "meta": {"total_calls": len(transcripts)}}
