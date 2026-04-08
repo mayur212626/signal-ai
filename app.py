@@ -13,3 +13,5 @@ with st.sidebar:
 # top metrics: calls analyzed, positive outcomes, avg engagement, objection resolution
 
 # tab 1: individual call analysis with expanders + pain point badges
+
+# tab 2: pain point frequency chart + thematic deep dive per theme
