@@ -9,3 +9,5 @@ with st.sidebar:
     st.markdown("## Select Calls")
     # multiselect placeholder
     run_btn = st.button("Run Analysis")
+
+# top metrics: calls analyzed, positive outcomes, avg engagement, objection resolution
