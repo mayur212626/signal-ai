@@ -11,3 +11,5 @@ with st.sidebar:
     run_btn = st.button("Run Analysis")
 
 # top metrics: calls analyzed, positive outcomes, avg engagement, objection resolution
+
+# tab 1: individual call analysis with expanders + pain point badges
