@@ -15,3 +15,5 @@ with st.sidebar:
 # tab 1: individual call analysis with expanders + pain point badges
 
 # tab 2: pain point frequency chart + thematic deep dive per theme
+
+# tab 3: sentiment bar chart + momentum arcs + risk signals across pipeline
