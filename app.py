@@ -19,3 +19,5 @@ with st.sidebar:
 # tab 3: sentiment bar chart + momentum arcs + risk signals across pipeline
 
 # tab 4: cross-call patterns — ICP, competitive intel, objection patterns, talk tracks
+
+# tab 5: strategic recommendations with P1/P2/P3 priority + PDF download button
