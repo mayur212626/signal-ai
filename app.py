@@ -17,3 +17,5 @@ with st.sidebar:
 # tab 2: pain point frequency chart + thematic deep dive per theme
 
 # tab 3: sentiment bar chart + momentum arcs + risk signals across pipeline
+
+# tab 4: cross-call patterns — ICP, competitive intel, objection patterns, talk tracks
