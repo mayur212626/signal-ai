@@ -1,4 +1,12 @@
-"""PDF report generator — placeholder"""
+"""PDF Executive Report Generator"""
+from reportlab.lib.pagesizes import letter
+from reportlab.platypus import SimpleDocTemplate
+import io
 
 def generate_report(results):
-    return b""
+    buf = io.BytesIO()
+    doc = SimpleDocTemplate(buf, pagesize=letter)
+    story = []
+    # TODO: cover, executive summary, call summaries, patterns, recommendations
+    doc.build(story)
+    return buf.getvalue()
