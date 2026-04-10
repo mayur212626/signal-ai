@@ -21,3 +21,5 @@ with st.sidebar:
 # tab 4: cross-call patterns — ICP, competitive intel, objection patterns, talk tracks
 
 # tab 5: strategic recommendations with P1/P2/P3 priority + PDF download button
+
+# css: full design system — navy/teal theme, metric cards, call cards, quote blocks
