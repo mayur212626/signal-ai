@@ -10,3 +10,5 @@ def generate_report(results):
     # TODO: cover, executive summary, call summaries, patterns, recommendations
     doc.build(story)
     return buf.getvalue()
+
+# added: cover page, executive summary, call-by-call summary tables
