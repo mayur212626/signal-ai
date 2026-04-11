@@ -12,3 +12,5 @@ def generate_report(results):
     return buf.getvalue()
 
 # added: cover page, executive summary, call-by-call summary tables
+
+# added: strategy section, win/loss table, universal pain points table, footer
