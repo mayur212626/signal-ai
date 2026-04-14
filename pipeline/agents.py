@@ -102,3 +102,5 @@ def run_pipeline(transcripts, progress_callback=None):
     return {"calls": all_analyses, "patterns": patterns, "strategy": strategy, "meta": {"total_calls": len(transcripts)}}
 
 # orchestrator: added progress_callback support for streamlit progress bar
+
+# fix: all agent outputs now have safe defaults for missing keys
