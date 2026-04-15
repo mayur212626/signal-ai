@@ -104,3 +104,5 @@ def run_pipeline(transcripts, progress_callback=None):
 # orchestrator: added progress_callback support for streamlit progress bar
 
 # fix: all agent outputs now have safe defaults for missing keys
+
+# refactor: tightened system prompts across all 5 agents — reduced hallucination, improved JSON consistency
