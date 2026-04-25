@@ -49,3 +49,5 @@ Sales Intelligence & Gap Analysis Layer
 - ICP generation: buy triggers, disqualifiers, champion profile from data
 
 - competitive_intelligence field: extracts competitor mentions across calls
+
+- recommended_talk_tracks: situation-based guidance from winning patterns
