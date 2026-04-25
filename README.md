@@ -69,3 +69,5 @@ Sales Intelligence & Gap Analysis Layer
 - Tab 3: sentiment bar chart and momentum arcs and pipeline risk signals
 
 - Tab 5: strategy recommendations with P1/P2/P3 priority and PDF export
+
+## PDF Executive Report
