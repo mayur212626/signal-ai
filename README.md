@@ -55,3 +55,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Agent 5: Strategic Advisor
 
 - pipeline_health: assessment, risk concentration, immediate actions
+
+- product_gaps and messaging_opportunities from conversation patterns
