@@ -45,3 +45,5 @@ Sales Intelligence & Gap Analysis Layer
 - seller_effectiveness: strengths and missed opportunities per call
 
 ## Agent 4: Cross-Call Pattern Synthesizer
+
+- ICP generation: buy triggers, disqualifiers, champion profile from data
