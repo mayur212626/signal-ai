@@ -27,3 +27,5 @@ Sales Intelligence & Gap Analysis Layer
 - critical_moments field: 3-4 pivotal exchanges per call
 
 ## Agent 2: Thematic Analysis
+
+- severity scoring: Critical / High / Medium per pain point
