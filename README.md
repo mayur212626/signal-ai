@@ -65,3 +65,5 @@ Sales Intelligence & Gap Analysis Layer
 - Tab 1: individual call analysis — pain badges, quotes, seller effectiveness
 
 - Tab 2: pain point frequency chart colored by severity
+
+- Tab 3: sentiment bar chart and momentum arcs and pipeline risk signals
