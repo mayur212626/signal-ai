@@ -43,3 +43,5 @@ Sales Intelligence & Gap Analysis Layer
 - trust_signals and risk_signals extracted per call
 
 - seller_effectiveness: strengths and missed opportunities per call
+
+## Agent 4: Cross-Call Pattern Synthesizer
