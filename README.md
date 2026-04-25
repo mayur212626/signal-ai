@@ -37,3 +37,5 @@ Sales Intelligence & Gap Analysis Layer
 - objections schema: type, how handled, resolved boolean
 
 ## Agent 3: Sentiment and Momentum Tracking
+
+- momentum_arc: tracks how sentiment shifted and why through the call
