@@ -53,3 +53,5 @@ Sales Intelligence & Gap Analysis Layer
 - recommended_talk_tracks: situation-based guidance from winning patterns
 
 ## Agent 5: Strategic Advisor
+
+- pipeline_health: assessment, risk concentration, immediate actions
