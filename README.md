@@ -71,3 +71,5 @@ Sales Intelligence & Gap Analysis Layer
 - Tab 5: strategy recommendations with P1/P2/P3 priority and PDF export
 
 ## PDF Executive Report
+
+- win/loss table, universal pain points table, strategic recommendations
