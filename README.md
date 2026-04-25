@@ -51,3 +51,5 @@ Sales Intelligence & Gap Analysis Layer
 - competitive_intelligence field: extracts competitor mentions across calls
 
 - recommended_talk_tracks: situation-based guidance from winning patterns
+
+## Agent 5: Strategic Advisor
