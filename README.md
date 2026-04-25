@@ -11,3 +11,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Transcript 1: Discovery Call — Global Logistics Co.
 
 ## Transcript 2: Technical Demo — MidWest Manufacturing
+
+## Transcript 3: Stalled Deal — Atlantic Distribution
