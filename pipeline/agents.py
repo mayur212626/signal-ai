@@ -16,7 +16,7 @@ def _call(system: str, user: str, max_tokens: int = 1500) -> str:
         messages=[{"role": "user", "content": user}],
         system=system
     )
-    return resp.content[0].text
+    text = resp.content[0].text`n    text = text.strip()`n    if text.startswith("```"):`n        text = text.split("`n", 1)[-1]`n        if text.endswith("```"):`n            text = text.rsplit("```", 1)[0]`n    return text.strip()
 
 
 # ── AGENT 1: INGESTION & STRUCTURING ──────────────────────────────────────────
