@@ -31,3 +31,5 @@ Sales Intelligence & Gap Analysis Layer
 - severity scoring: Critical / High / Medium per pain point
 
 - unspoken_fears: what buyers worry about but dont say directly
+
+- buying_triggers: conditions that make a buyer say yes
