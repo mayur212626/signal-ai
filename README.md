@@ -21,3 +21,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Transcript 6: Multi-Stakeholder — Cascade Foods (fatality context)
 
 ## Agent 1: Ingestion and Structuring
+
+- buyer_role_insights field added to agent 1 schema
