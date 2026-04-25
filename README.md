@@ -15,3 +15,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Transcript 3: Stalled Deal — Atlantic Distribution
 
 ## Transcript 4: Closed Won — NovaPack Logistics
+
+## Transcript 5: Competitive Displacement — Apex Warehousing
