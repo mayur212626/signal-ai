@@ -63,3 +63,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Streamlit Dashboard
 
 - Tab 1: individual call analysis — pain badges, quotes, seller effectiveness
+
+- Tab 2: pain point frequency chart colored by severity
