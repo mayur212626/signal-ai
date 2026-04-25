@@ -9,3 +9,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Dataset: 6 enterprise B2B sales call transcripts
 
 ## Transcript 1: Discovery Call — Global Logistics Co.
+
+## Transcript 2: Technical Demo — MidWest Manufacturing
