@@ -39,3 +39,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Agent 3: Sentiment and Momentum Tracking
 
 - momentum_arc: tracks how sentiment shifted and why through the call
+
+- trust_signals and risk_signals extracted per call
