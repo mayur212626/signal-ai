@@ -19,3 +19,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Transcript 5: Competitive Displacement — Apex Warehousing
 
 ## Transcript 6: Multi-Stakeholder — Cascade Foods (fatality context)
+
+## Agent 1: Ingestion and Structuring
