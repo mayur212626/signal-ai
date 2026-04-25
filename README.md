@@ -25,3 +25,5 @@ Sales Intelligence & Gap Analysis Layer
 - buyer_role_insights field added to agent 1 schema
 
 - critical_moments field: 3-4 pivotal exchanges per call
+
+## Agent 2: Thematic Analysis
