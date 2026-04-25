@@ -13,3 +13,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Transcript 2: Technical Demo — MidWest Manufacturing
 
 ## Transcript 3: Stalled Deal — Atlantic Distribution
+
+## Transcript 4: Closed Won — NovaPack Logistics
