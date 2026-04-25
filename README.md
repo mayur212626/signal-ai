@@ -61,3 +61,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Orchestrator: 5-agent sequential pipeline
 
 ## Streamlit Dashboard
+
+- Tab 1: individual call analysis — pain badges, quotes, seller effectiveness
