@@ -75,3 +75,9 @@ Sales Intelligence & Gap Analysis Layer
 - win/loss table, universal pain points table, strategic recommendations
 
 ## Bug Fixes and Hardening
+
+## Setup
+
+pip install -r requirements.txt
+export ANTHROPIC_API_KEY=your_key
+streamlit run app.py
