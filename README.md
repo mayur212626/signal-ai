@@ -17,3 +17,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Transcript 4: Closed Won — NovaPack Logistics
 
 ## Transcript 5: Competitive Displacement — Apex Warehousing
+
+## Transcript 6: Multi-Stakeholder — Cascade Foods (fatality context)
