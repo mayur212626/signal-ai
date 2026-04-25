@@ -29,3 +29,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Agent 2: Thematic Analysis
 
 - severity scoring: Critical / High / Medium per pain point
+
+- unspoken_fears: what buyers worry about but dont say directly
