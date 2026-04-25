@@ -33,3 +33,5 @@ Sales Intelligence & Gap Analysis Layer
 - unspoken_fears: what buyers worry about but dont say directly
 
 - buying_triggers: conditions that make a buyer say yes
+
+- objections schema: type, how handled, resolved boolean
