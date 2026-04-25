@@ -73,3 +73,5 @@ Sales Intelligence & Gap Analysis Layer
 ## PDF Executive Report
 
 - win/loss table, universal pain points table, strategic recommendations
+
+## Bug Fixes and Hardening
