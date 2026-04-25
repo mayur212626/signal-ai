@@ -35,3 +35,5 @@ Sales Intelligence & Gap Analysis Layer
 - buying_triggers: conditions that make a buyer say yes
 
 - objections schema: type, how handled, resolved boolean
+
+## Agent 3: Sentiment and Momentum Tracking
