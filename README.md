@@ -47,3 +47,5 @@ Sales Intelligence & Gap Analysis Layer
 ## Agent 4: Cross-Call Pattern Synthesizer
 
 - ICP generation: buy triggers, disqualifiers, champion profile from data
+
+- competitive_intelligence field: extracts competitor mentions across calls
